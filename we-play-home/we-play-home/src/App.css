@@ -3,13 +3,30 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
+  width: 25vmin;
   pointer-events: none;
+}
+
+/* src/App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.weplay-cartoon-1 {
+  font-family: 'Bangers', cursive;
+  font-size: 2em;
+  color: #61c0ff ;
+  text-shadow: 2px 4px 0px #4CAF50;
+  letter-spacing: 2px;
+  /*transform: rotate(-3deg);*/
+  display: inline-block;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    /*animation: App-logo-spin infinite 20s linear;
+    animation: alternate;
+    animation: App-logo-spin infinite 20s linear;*/
   }
 }
 
@@ -28,11 +45,11 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
