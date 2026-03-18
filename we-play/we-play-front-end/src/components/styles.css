@@ -1,0 +1,63 @@
+/* src/components/styles.css */
+.auth-dropdown-container {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 5px;
+    margin-top: 5px;
+    min-width: 150px;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: left;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+.auth-page-container {
+    padding: 40px;
+    text-align: center;
+}
+
+.form-container {
+  display: flex ;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;    /* Centers vertically */
+  height: 50vh;          /* Full viewport height */
+}
+
+.input {
+  margin: 10px;           /* Adds spacing between inputs */
+  padding: 10px;
+  font-size: 16px;
+}
+
+
